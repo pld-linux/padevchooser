@@ -1,0 +1,18 @@
+--- padevchooser-0.9.2/src/padevchooser.desktop.orig	2006-06-21 12:55:36.000000000 +0200
++++ padevchooser-0.9.2/src/padevchooser.desktop	2006-08-26 22:38:27.472369250 +0200
+@@ -2,10 +2,14 @@
+ Version=1.0
+ Encoding=UTF-8
+ Name=PulseAudio Device Chooser
++Name[pl]=Wybór urządzenia PulseAudio
+ GenericName=Device Chooser
++GenericName[pl]=Wybór urządzenia
+ Comment=An Applet for Quick Device Changing
++Comment[pl]=Aplet do szybkiej zmiany urządzenia
+ Exec=padevchooser
+ Icon=audio-card
+ StartupNotify=true
+ Type=Application
+-Categories=Application;AudioVideo;Audio;
++Categories=GTK;AudioVideo;Audio;
++# vi:encoding=utf-8
