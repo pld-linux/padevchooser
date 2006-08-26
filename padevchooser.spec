@@ -4,7 +4,7 @@ Name:		padevchooser
 Version:	0.9.2
 Release:	1
 License:	GPL v2+
-Group:		Applications/Sound
+Group:		X11/Applications/Sound
 Source0:	http://0pointer.de/lennart/projects/padevchooser/%{name}-%{version}.tar.gz
 # Source0-md5:	434292c135b9a2e95f386b239fb7b465
 Patch0:		%{name}-desktop.patch
