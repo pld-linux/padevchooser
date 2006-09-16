@@ -1,12 +1,12 @@
 Summary:	PulseAudio Device Chooser
 Summary(pl):	PulseAudio Device Chooser - narzêdzie do wyboru urz±dzeñ
 Name:		padevchooser
-Version:	0.9.2
+Version:	0.9.3
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications/Sound
 Source0:	http://0pointer.de/lennart/projects/padevchooser/%{name}-%{version}.tar.gz
-# Source0-md5:	434292c135b9a2e95f386b239fb7b465
+# Source0-md5:	6a9b52ad349f3fb3d5a3ccdf85958710
 Patch0:		%{name}-desktop.patch
 URL:		http://0pointer.de/lennart/projects/padevchooser/
 BuildRequires:	GConf2-devel >= 2.0
@@ -26,7 +26,7 @@ you:
  - Quickly change the default PulseAudio sink/source/server assigned
    to the current X11 display, selecting devices available on the LAN
  - Start the auxiliary tools: PulseAudio Volume Control, PulseAudio
-   Volume Meter, PulseAudio Manager
+   Volume Meter, PulseAudio Manager, PulseAudio Preferences
 
 %description -l pl
 PulseAudio Device Chooser (padevchooser) to proste narzêdzie GTK+
@@ -37,8 +37,8 @@ potrafi:
  - szybko zmieniæ domy¶lne ¼ród³o/serwer PulseAudio przypisane do
    ekranu X11 wybieraj±c urz±dzenia dostêpne w sieci lokalnej
  - uruchomiæ dodatkowe narzêdzia: mikser (PulseAudio Volume Control),
-   miernik g³o¶no¶ci (PulseAudio Volume Meter) i zarz±dcê (PulseAudio
-   Manager).
+   miernik g³o¶no¶ci (PulseAudio Volume Meter), zarz±dcê (PulseAudio
+   Manager) i ustawienia (PulseAudio Preferences).
 
 %prep
 %setup -q
