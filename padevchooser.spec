@@ -1,5 +1,5 @@
 Summary:	PulseAudio Device Chooser
-Summary(pl.UTF-8):   PulseAudio Device Chooser - narzędzie do wyboru urządzeń
+Summary(pl.UTF-8):	PulseAudio Device Chooser - narzędzie do wyboru urządzeń
 Name:		padevchooser
 Version:	0.9.3
 Release:	1
