@@ -1,5 +1,5 @@
 Summary:	PulseAudio Device Chooser
-Summary(pl):	PulseAudio Device Chooser - narzêdzie do wyboru urz±dzeñ
+Summary(pl.UTF-8):   PulseAudio Device Chooser - narzÄ™dzie do wyboru urzÄ…dzeÅ„
 Name:		padevchooser
 Version:	0.9.3
 Release:	1
@@ -28,16 +28,16 @@ you:
  - Start the auxiliary tools: PulseAudio Volume Control, PulseAudio
    Volume Meter, PulseAudio Manager, PulseAudio Preferences
 
-%description -l pl
-PulseAudio Device Chooser (padevchooser) to proste narzêdzie GTK+
-rejestruj±ce ikonê na pasku i pozwalaj±ce na szybki dostêp do
-niektórych mo¿liwo¶ci serwera d¼wiêku PulseAudio. W szczególno¶ci
+%description -l pl.UTF-8
+PulseAudio Device Chooser (padevchooser) to proste narzÄ™dzie GTK+
+rejestrujÄ…ce ikonÄ™ na pasku i pozwalajÄ…ce na szybki dostÄ™p do
+niektÃ³rych moÅ¼liwoÅ›ci serwera dÅºwiÄ™ku PulseAudio. W szczegÃ³lnoÅ›ci
 potrafi:
- - powiadomiæ o nowych ¼ród³ach dostêpnych w sieci lokalnej
- - szybko zmieniæ domy¶lne ¼ród³o/serwer PulseAudio przypisane do
-   ekranu X11 wybieraj±c urz±dzenia dostêpne w sieci lokalnej
- - uruchomiæ dodatkowe narzêdzia: mikser (PulseAudio Volume Control),
-   miernik g³o¶no¶ci (PulseAudio Volume Meter), zarz±dcê (PulseAudio
+ - powiadomiÄ‡ o nowych ÅºrÃ³dÅ‚ach dostÄ™pnych w sieci lokalnej
+ - szybko zmieniÄ‡ domyÅ›lne ÅºrÃ³dÅ‚o/serwer PulseAudio przypisane do
+   ekranu X11 wybierajÄ…c urzÄ…dzenia dostÄ™pne w sieci lokalnej
+ - uruchomiÄ‡ dodatkowe narzÄ™dzia: mikser (PulseAudio Volume Control),
+   miernik gÅ‚oÅ›noÅ›ci (PulseAudio Volume Meter), zarzÄ…dcÄ™ (PulseAudio
    Manager) i ustawienia (PulseAudio Preferences).
 
 %prep
