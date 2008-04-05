@@ -10,8 +10,8 @@ Source0:	http://0pointer.de/lennart/projects/padevchooser/%{name}-%{version}.tar
 Patch0:		%{name}-desktop.patch
 URL:		http://0pointer.de/lennart/projects/padevchooser/
 BuildRequires:	GConf2-devel >= 2.0
-BuildRequires:	gtk+2-devel >= 2.0
-BuildRequires:	libglade2-devel >= 2.0
+BuildRequires:	gtk+2-devel >= 1:2.0
+BuildRequires:	libglade2-devel >= 1:2.0
 BuildRequires:	libnotify-devel
 BuildRequires:	pkgconfig
 BuildRequires:	pulseaudio-devel >= 0.9.2
