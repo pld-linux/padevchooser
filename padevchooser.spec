@@ -15,6 +15,7 @@ BuildRequires:	libglade2-devel >= 1:2.0
 BuildRequires:	libnotify-devel
 BuildRequires:	pkgconfig
 BuildRequires:	pulseaudio-devel >= 0.9.2
+Requires:	avahi
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
