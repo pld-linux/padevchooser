@@ -1,0 +1,15 @@
+diff -urN padevchooser-0.9.3/src/padevchooser.c padevchooser-0.9.3.new//src/padevchooser.c
+--- padevchooser-0.9.3/src/padevchooser.c	2006-07-27 20:27:12.000000000 +0200
++++ padevchooser-0.9.3.new//src/padevchooser.c	2011-04-09 22:25:35.012378517 +0200
+@@ -162,7 +162,11 @@
+         
+     if (!notification) {
+         s = g_strdup_printf("<i>%s</i>\n%s", title, text);
++#if !defined(NOTIFY_VERSION_MINOR) || (NOTIFY_VERSION_MAJOR == 0 && NOTIFY_VERSION_MINOR < 7)
+         notification = notify_notification_new(title, s, "audio-card", GTK_WIDGET(tray_icon));
++#else
++        notification = notify_notification_new(title, s, "audio-card");
++#endif
+         notify_notification_set_category(notification, "device.added");
+         notify_notification_set_urgency(notification, NOTIFY_URGENCY_LOW);
+         g_signal_connect_swapped(G_OBJECT(notification), "closed", G_CALLBACK(notification_closed), NULL);

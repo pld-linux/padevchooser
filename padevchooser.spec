@@ -2,12 +2,13 @@ Summary:	PulseAudio Device Chooser
 Summary(pl.UTF-8):	PulseAudio Device Chooser - narzędzie do wyboru urządzeń
 Name:		padevchooser
 Version:	0.9.3
-Release:	3
+Release:	4
 License:	GPL v2+
 Group:		X11/Applications/Sound
 Source0:	http://0pointer.de/lennart/projects/padevchooser/%{name}-%{version}.tar.gz
 # Source0-md5:	6a9b52ad349f3fb3d5a3ccdf85958710
 Patch0:		%{name}-desktop.patch
+Patch1:		%{name}-libnotify.patch
 URL:		http://0pointer.de/lennart/projects/padevchooser/
 BuildRequires:	GConf2-devel >= 2.0
 BuildRequires:	gtk+2-devel >= 1:2.0
@@ -44,6 +45,7 @@ potrafi:
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
 %configure \
