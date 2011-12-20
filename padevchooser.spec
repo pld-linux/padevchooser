@@ -1,5 +1,5 @@
 %define		subver	svn20070925
-%define		rel		2
+%define		rel		3
 Summary:	PulseAudio Device Chooser
 Summary(pl.UTF-8):	PulseAudio Device Chooser - narzędzie do wyboru urządzeń
 Name:		padevchooser
